@@ -11,7 +11,7 @@ app.use(cors())
 app.use(morgan("dev"))
 
 app.get("/", (req, res) => {
-    res.send("<h6>..it works so entirely fuckin well..:)</h6>")
+    res.send("<h6>..that server works so entirely fine and well..:)</h6>")
 })
 
 
