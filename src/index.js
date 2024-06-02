@@ -40,4 +40,4 @@ app.post("/movies", express.json(), (req, res) => {
         .then((addedMovie) => res.json(addedMovie))
 })
 
-app.listen(PORT, () => console.log("Server listening on PORT", PORT))
+app.listen(PORT, () => console.log("..serving at..", PORT))
