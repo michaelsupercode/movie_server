@@ -4,7 +4,7 @@ const express = require("express")
 
 const { getAllMovies, getMovieById, addMovieToDB } = require("./db-access/db-access");
 
-const PORT = process.env.PORT || 9000
+const PORT = process.env.PORT || 9077
 const app = express()
 
 app.use(cors())
